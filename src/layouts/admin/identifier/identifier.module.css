@@ -1,0 +1,21 @@
+.id {
+	padding-bottom: 22px;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.id_img {
+	width: 40px;
+	height: 40px;
+}
+
+.id_name {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.id_title {
+	font-size: 12px;
+	color: var(--mantine-color-gray-7);
+}

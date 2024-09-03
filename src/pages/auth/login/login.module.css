@@ -1,0 +1,52 @@
+.container {
+	min-height: 100dvh;
+	display: grid;
+	place-content: center;
+}
+
+.input_wrapper:last-child {
+	margin-top: 20px;
+}
+
+.form .input_wrapper + .input_wrapper {
+	margin-top: 10px;
+}
+
+.login_card {
+	border: 1px solid var(--mantine-color-blue-outline);
+	padding: 16px;
+	min-width: 300px;
+	border-radius: 8px;
+}
+
+.login_word {
+	margin-bottom: 20px;
+}
+
+.login_word * + * {
+	margin-top: 5px;
+}
+
+.login_word h1 {
+	margin-top: 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 374px) {
+	.login_card {
+		min-width: 350px;
+	}
+}
+
+@media screen and (min-width: 424px) {
+	.login_card {
+		min-width: 400px;
+	}
+}
+
+@media screen and (min-width: 765px) {
+	.login_card {
+		min-width: 410px;
+	}
+}
